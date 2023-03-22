@@ -1,0 +1,24 @@
+GET /INF_324/crud2_php/index.php?id=3 HTTP/1.1
+Host: 127.0.0.1
+
+GET /INF_324/crud2_php/index.php HTTP/1.1
+Host: 127.0.0.1
+
+DELETE /INF_324/crud2_php/index.php?id=3 HTTP/1.1
+Host: 127.0.0.1
+
+POST /INF_324/crud2_php/index.php HTTP/1.1
+Host: 127.0.0.1
+Content-Length: 80
+
+id=4
+
+PUT /INF_324/crud2_php/index.php HTTP/1.1
+Host: 127.0.0.1
+Content-Type: application/json
+Content-Length: 80
+
+{
+    "id":"2"
+}
+
